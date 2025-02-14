@@ -1,0 +1,31 @@
+.detalhe .cursos{
+    margin: 20px;
+}
+
+.cursos .content .description p{
+    font-size: 16px;
+}
+
+.cursos p, .cursos ul li{
+    font-size: 16px;
+}
+
+.detalhe .cursos .duration{
+    margin: 12px 0;
+}
+
+.grid{
+    margin-bottom: 40px;
+}
+
+.goBack{
+    background: #031e2a;
+    color: #fff;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.goBack svg{
+margin-right: 8px;
+}

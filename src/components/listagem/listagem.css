@@ -1,0 +1,121 @@
+.cursos {
+    margin: 0 auto;
+}
+
+.cursos .container-menu{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.cursos .container-menu .filtros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cursos .container-menu label, select{
+    font-size: 16px;
+    font-weight: 700;
+}
+  
+.cards {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 16px; 
+    justify-content: center;
+}
+
+.cards a{
+    color: #000;
+    text-decoration: none;
+}
+  
+.card-curso {
+    flex: 1 1 calc(33.333% - 16px);
+    min-width: 250px; 
+    max-width: 300px; 
+    background: #fff;
+    padding: 0 0 12px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.card-curso:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card-curso-content{
+    padding: 8px 8px 0;
+}
+
+.card-curso-content .id{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.card-curso-content .id span{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card-curso-content .category{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.card-curso-content .category span{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card-curso-content .name {
+    font-weight: 500;
+    font-size: 16px;
+}
+  
+.card-curso-content .duration {
+    font-size: 14px;
+    font-weight: 600;
+}
+.card-curso-content .duration span {
+    font-weight: 400;
+}
+  
+.card-curso-content .description {
+    font-size: 14px;
+    color: #444;
+}
+  
+@media (max-width: 900px) {
+    .card-curso {
+      flex: 1 1 calc(50% - 16px);
+    }
+}
+  
+@media (max-width: 600px) {
+    .card-curso {
+      flex: 1 1 100%;
+    }
+}
+  
+.image {
+    width: 100%;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    min-height: 200px;
+}
+  
+
+  

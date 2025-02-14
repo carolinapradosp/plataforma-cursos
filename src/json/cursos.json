@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "JavaScript do Zero ao Avançado",
+        "description": "Aprenda JavaScript do básico ao avançado com exemplos práticos.",
+        "category": "Programação",
+        "duration": 40,
+        "image": "https://carolinaprado.com.br/fenix/img/programacao.jpg",
+        "grade": {
+            "Aula 1": "Introdução ao JavaScript",
+            "Aula 2": "Sintaxe e Variáveis",
+            "Aula 3": "Funções e Objetos",
+            "Aula 4": "Manipulação do DOM",
+            "Aula 5": "Projetos Práticos"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Fundamentos de Design Gráfico",
+        "description": "Aprenda os princípios básicos do design gráfico e crie projetos visuais incríveis.",
+        "category": "Design",
+        "duration": 30,
+        "image": "https://carolinaprado.com.br/fenix/img/design.jpg",
+        "grade": {
+            "Aula 1": "Introdução ao Design Gráfico",
+            "Aula 2": "Princípios do Design",
+            "Aula 3": "Tipografia e Cores",
+            "Aula 4": "Ferramentas de Design",
+            "Aula 5": "Projeto Final"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Marketing Digital para Iniciantes",
+        "description": "Descubra as estratégias essenciais do marketing digital e como aplicá-las.",
+        "category": "Marketing",
+        "duration": 25,
+        "image": "https://carolinaprado.com.br/fenix/img/marketing.jpg",
+        "grade": {
+            "Aula 1": "Introdução ao Marketing Digital",
+            "Aula 2": "SEO e SEM",
+            "Aula 3": "Redes Sociais",
+            "Aula 4": "E-mail Marketing",
+            "Aula 5": "Métricas e Análises"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Desenvolvimento Web com React",
+        "description": "Construa aplicações web modernas utilizando React e suas principais bibliotecas.",
+        "category": "Programação",
+        "duration": 45,
+        "image": "https://carolinaprado.com.br/fenix/img/programacao02.jpg",
+        "grade": {
+            "Aula 1": "Introdução ao React",
+            "Aula 2": "Componentes e Props",
+            "Aula 3": "Estado e Efeitos",
+            "Aula 4": "React Router",
+            "Aula 5": "Deploy e Boas Práticas"
+        }
+    },
+    {
+        "id": 5,
+        "name": "SEO para Negócios",
+        "description": "Aprenda técnicas de SEO para aumentar a visibilidade do seu site nos buscadores.",
+        "category": "Marketing",
+        "duration": 20,
+        "image": "https://carolinaprado.com.br/fenix/img/marketing02.jpg",
+        "grade": {
+            "Aula 1": "Introdução ao SEO",
+            "Aula 2": "Palavras-chave e Conteúdo",
+            "Aula 3": "SEO Técnico",
+            "Aula 4": "Link Building",
+            "Aula 5": "Monitoramento e Ajustes"
+        }
+    },
+    {
+        "id": 6,
+        "name": "UI/UX Design para Aplicações",
+        "description": "Crie interfaces intuitivas e melhore a experiência do usuário com boas práticas de UI/UX.",
+        "category": "Design",
+        "duration": 35,
+        "image": "https://carolinaprado.com.br/fenix/img/design02.jpg",
+        "grade": {
+            "Aula 1": "Introdução ao UI/UX",
+            "Aula 2": "Princípios de Design",
+            "Aula 3": "Wireframes e Protótipos",
+            "Aula 4": "Testes de Usabilidade",
+            "Aula 5": "Projeto Final"
+        }
+    }
+]

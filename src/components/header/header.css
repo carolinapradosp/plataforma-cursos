@@ -1,0 +1,146 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+header .logo img{
+    height: 60px;
+}
+
+header ul li{
+    list-style: none;
+    font-weight: 800;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+header ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    font-weight: 400;
+}
+
+header ul{
+    display: flex;
+    margin: 0;
+}
+
+nav.navbar.navbar-expand-lg{
+    width: 100%;
+}
+
+.dropdown-menu.show{
+    border-radius: 0;
+    background: #eae7e7;
+  
+}
+
+.dropdown-item:hover{
+    background: none;
+}
+
+.dropdown-item{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+header input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background: none;
+    padding-right: 32px;
+    max-width: 260px;
+}
+
+header .fontSizeAss{
+    margin: 12px 0;
+}
+
+header input:focus{
+    outline: 0;
+}
+
+header input::placeholder{
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header button{
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+header button img{
+    width: 14px;
+    margin-left: -18px;
+    margin-top: -6px;
+}
+
+.fontSizeAss a{
+ cursor: pointer;
+}
+
+.fontSizeAss button img{
+    width: 22px;
+    margin: 0 3px;
+}
+
+
+@media (max-width: 991px) {
+    header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background: #eae7e7;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+    -moz-box-shadow: 0px 28px 21px -28px rgba(158, 158, 158, 1);
+    -webkit-box-shadow: 0px 28px 21px -28px rgba(31, 31, 31, 1);
+    -moz-box-shadow: 0px 28px 21px -28px rgba(31, 31, 31, 1);
+    box-shadow: 0px 28px 21px -28px rgba(31, 31, 31, 1);
+    }
+
+    .navbar-collapse.collapse.show{
+        margin: 22px 0 0;
+        border-top: 1px solid #cec2c2;
+    }
+
+    .navbar-nav{
+        margin-top: 16px;
+    }
+
+    header ul li{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 992px) {
+    header #menuDropdown{
+        display: flex;
+        justify-content: flex-end;
+        gap: 30px;
+    }
+    
+    header ul{
+        gap: 20px;
+    }
+
+    .dropdown-menu.show{
+        margin-top: 160px;
+    }
+}
