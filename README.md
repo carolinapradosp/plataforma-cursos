@@ -1,6 +1,6 @@
 # Plataforma de cursos online
 
-Esse projeto foi desenvolvido em React.
+Este projeto foi desenvolvido em React.
 
 ### Instalação do projeto
 
