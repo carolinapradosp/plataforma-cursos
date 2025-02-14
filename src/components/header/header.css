@@ -38,11 +38,14 @@ nav.navbar.navbar-expand-lg{
 .dropdown-menu.show{
     border-radius: 0;
     background: #eae7e7;
-  
 }
 
 .dropdown-item:hover{
     background: none;
+}
+
+.dropdown-item:active{
+    color: #000;
 }
 
 .dropdown-item{
@@ -95,7 +98,6 @@ header button img{
     width: 22px;
     margin: 0 3px;
 }
-
 
 @media (max-width: 991px) {
     header{
